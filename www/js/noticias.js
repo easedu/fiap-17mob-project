@@ -38,7 +38,7 @@ onSuccess: function(data) {
         var items = [];
         $.each(data, function(key, val){
               var url = val['enclosure'].link
-              items.push('<div class="card mb-3"> <img class="card-img-top img-responsive" src="'+url+'"> <div class="card-block"> <h4 class="card-title">'+ val.title +'</h4> <p class="card-text">'+ val.description +'</p> <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> </div> </div>')
+              items.push('<div class="card mb-3"> <div class="card-block"> <h4 class="card-title">'+ val.title +'</h4> <p class="card-text">'+ val.description +'</p> <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> </div> </div>')
         });
         $('#feeds').html(items.join(''));
       }
