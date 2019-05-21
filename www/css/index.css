@@ -229,3 +229,17 @@ input[type=text], input[type=password] {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .logo {
+    margin-top: 30px;
+
+  }
+
+  .card-block {
+    background-color: #4B946A;
+    color: white;
+  }
+
+  #verde {
+    color: white;
+  }
